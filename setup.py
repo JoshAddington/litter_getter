@@ -42,7 +42,7 @@ setup(
     package_dir={'litter_getter': 'litter_getter'},
     include_package_data=True,
     install_requires=requirements,
-    license="MIT license",
+    license='MIT license',
     zip_safe=False,
     keywords='litter_getter',
     classifiers=[
@@ -50,8 +50,9 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6  ',
     ],
     test_suite='tests',
     tests_require=test_requirements
